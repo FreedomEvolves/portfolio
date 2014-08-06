@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @collborator.last_name %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @collborator.first_name %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @collborator.year %>
+</p>
+
+<p>
+  <strong>Project link:</strong>
+  <%= @collborator.project_link %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @collborator.comments %>
+</p>
+
+<%= link_to 'Edit', edit_collborator_path(@collborator) %> |
+<%= link_to 'Back', collborators_path %>

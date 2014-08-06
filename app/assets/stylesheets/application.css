@@ -1,0 +1,41 @@
+li{
+	display:inline-block;
+	margin: 0 10px;
+	padding: 3px 0px;
+    margin-bottom: 6px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+p{
+  color:blue;
+  font-family:fantasy;
+  text-indent:45px; 
+  }
+
+.nav-bar{
+	color:blue;   #class selector
+}
+
+#container1{
+	font-size:30px;
+}
+  /*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self 
+ *
+ *  - See more at: http://www.codemiles.com/html-examples/add-border-around-ordered-list-elements-t9030.html#sthash.rPXvxEl9.dpuf
+ *     border-top: 2px solid red;
+ */
+

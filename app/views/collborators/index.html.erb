@@ -1,0 +1,33 @@
+<h2>Esteemed Collaborators</h2>
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Last name</th>
+      <th>First name</th>
+      <th>Year</th>
+      <th>Project link</th>
+      <th>Comments</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @collborators.each do |collborator| %>
+      <tr>
+        <td><%= collborator.last_name %></td>
+        <td><%= collborator.first_name %></td>
+        <td><%= collborator.year %></td>
+        <td><%= collborator.project_link %></td>
+        <td><%= collborator.comments %></td>
+        <td><%= link_to 'Show', collborator %></td>
+        <td><%= link_to 'Edit', edit_collborator_path(collborator) %></td>
+        <td><%= link_to 'Destroy', collborator, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Collaborator', new_collborator_path %>
