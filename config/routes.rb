@@ -1,13 +1,21 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+  get 'contact' => 'contact#index'
+  post 'contact/save' => 'contact#save'
+
   root 'welcome#index'
   
   get 'welcome/index'
+   get 'index' => 'welcome#index'
 
   get 'welcome/about'
+   get 'about' => 'welcome#about'
 
   get 'welcome/resume'
+   get 'resume' => 'welcome#resumer'
 
   get 'welcome/papers'
+   get 'papers' => 'welcome#papers'
 
   resources :collborators
 
