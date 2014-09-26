@@ -1,20 +1,28 @@
-li{
+/*li{
 	display:inline-block;
 	margin: 0 10px;
 	padding: 3px 0px;
     margin-bottom: 6px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-}
+}*/
 
 p{
-  color:blue;
-  font-family:fantasy;
+  color:black;
+  font-family:verdana;
   text-indent:45px; 
   }
 
-.nav-bar{
-	color:blue;
+.navbar-brand{
+	color:#95b9d8;
+}
+
+.nav li a{
+    color:#95b9d8;
+}
+
+.nav li a:hover{
+    color:red;
 }
 
 #container1{

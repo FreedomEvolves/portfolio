@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :blogs
+
   get 'contact/index'
   get 'contact' => 'contact#index'
   post 'contact/save' => 'contact#save'
@@ -17,7 +19,6 @@ Rails.application.routes.draw do
   get 'welcome/papers'
    get 'papers' => 'welcome#papers'
 
-  resources :collborators
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
