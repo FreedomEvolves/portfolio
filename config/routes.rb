@@ -1,23 +1,17 @@
 Rails.application.routes.draw do
-  resources :blogs
-
-  get 'contact/index'
-  get 'contact' => 'contact#index'
-  post 'contact/save' => 'contact#save'
-
   root 'welcome#index'
   
   get 'welcome/index'
-   get 'index' => 'welcome#index'
+  get 'index' => 'welcome#index'
 
   get 'welcome/about'
-   get 'about' => 'welcome#about'
+  get 'about' => 'welcome#about'
 
   get 'welcome/resume'
-   get 'resume' => 'welcome#resumer'
+  get 'resume' => 'welcome#resumer'
 
   get 'welcome/papers'
-   get 'papers' => 'welcome#papers'
+  get 'papers' => 'welcome#papers'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
