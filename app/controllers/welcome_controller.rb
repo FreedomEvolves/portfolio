@@ -10,4 +10,8 @@ class WelcomeController < ApplicationController
 
   def papers
   end
+
+  def door1
+  end
+  
 end

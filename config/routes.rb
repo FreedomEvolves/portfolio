@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   get 'welcome/papers'
   get 'papers' => 'welcome#papers'
 
+  get 'welcome/door1'
+  get 'door1' => 'welcome#door1'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
