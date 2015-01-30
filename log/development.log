@@ -24241,3 +24241,129 @@ Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/imagination.mp3" for 127.0.0.1 at 2014-09-27 12:17:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 08:27:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 148ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/orange_front_door.jpg" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/GitHubpic.png" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/assets/twittericon.png" for 127.0.0.1 at 2014-12-11 08:27:18 -0500
+
+
+Started GET "/welcome/door3" for 127.0.0.1 at 2014-12-11 08:28:17 -0500
+Processing by WelcomeController#door3 as HTML
+  Rendered welcome/door3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/imagination.mp3" for 127.0.0.1 at 2014-12-11 08:28:17 -0500
+
+
+Started GET "/welcome/door1" for 127.0.0.1 at 2014-12-11 08:29:24 -0500
+Processing by WelcomeController#door1 as HTML
+  Rendered welcome/door1.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/imagination.mp3" for 127.0.0.1 at 2014-12-11 08:29:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 137ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-29 14:33:32 -0500
+
+
+Started GET "/assets/twittericon.png" for 127.0.0.1 at 2014-12-29 14:33:33 -0500
+
+
+Started GET "/assets/GitHubpic.png" for 127.0.0.1 at 2014-12-29 14:33:33 -0500
+
+
+Started GET "/assets/orange_front_door.jpg" for 127.0.0.1 at 2014-12-29 14:33:33 -0500
+
+
+Started GET "/welcome/door1" for 127.0.0.1 at 2014-12-29 14:34:15 -0500
+Processing by WelcomeController#door1 as HTML
+  Rendered welcome/door1.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/imagination.mp3" for 127.0.0.1 at 2014-12-29 14:34:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/GitHubpic.png" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/twittericon.png" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
+
+
+Started GET "/assets/orange_front_door.jpg" for 127.0.0.1 at 2014-12-29 14:43:20 -0500
