@@ -8,16 +8,13 @@ Rails.application.routes.draw do
   get 'about' => 'welcome#about'
 
   get 'welcome/resume'
-  get 'resume' => 'welcome#resumer'
+  get 'resume' => 'welcome#resume'
 
   get 'welcome/papers'
   get 'papers' => 'welcome#papers'
 
   get 'welcome/door1'
   get 'door1' => 'welcome#door1'
-
-  get 'welcome/door3'
-  get 'door1' => 'welcome#door3'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -13,8 +13,5 @@ class WelcomeController < ApplicationController
 
   def door1
   end
-
-  def door3
-  end
   
 end
