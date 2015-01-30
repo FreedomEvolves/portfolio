@@ -7,9 +7,9 @@
   </div>
   <br><br> <br> <br> <br><br>
   <div>
-    <%= image_tag("tts-logo.png", height:'200', width:'200', :class=>"img-rounded img-border") %>
-    <%= image_tag('kayak.jpg', height:'200', width:'200', :class=>"img-rounded img-border") %>
-    <%= image_tag('nasonia.jpg', height:'200', width:'200', :class=>"img-rounded img-border", title:"female Nasonia laying eggs") %>    
+    <a href= "http://tts-job-board.herokuapp.com"><%= image_tag("tts-logo.png", height:'200', width:'200', :class=>"img-rounded img-border") %></a>
+    <%= link_to(image_tag('kayak.jpg', height:'200', width:'200', :class=>"img-rounded img-border"), imagination_path) %>
+    <%= link_to(image_tag('nasonia.jpg', height:'200', width:'200', :class=>"img-rounded img-border", title:"female Nasonia laying eggs"), resume_path) %>    
   </div>
 </div>
 <br>

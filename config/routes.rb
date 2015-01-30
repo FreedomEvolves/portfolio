@@ -1,20 +1,11 @@
 Rails.application.routes.draw do
   root 'welcome#index'
-  
-  get 'welcome/index'
+
   get 'index' => 'welcome#index'
-
-  get 'welcome/about'
   get 'about' => 'welcome#about'
-
-  get 'welcome/resume'
   get 'resume' => 'welcome#resume'
-
-  get 'welcome/papers'
   get 'papers' => 'welcome#papers'
-
-  get 'welcome/door1'
-  get 'door1' => 'welcome#door1'
+  get 'imagination' => 'welcome#imagination'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

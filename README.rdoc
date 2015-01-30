@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Portfolio app provides links to other websites I've developed or contributed to as well as links to sites that provide personal background (e.g., LinkedIn, Github, Google Scholar).
 
-Things you may want to cover:
+Glitches:
+index page:
+  borders around github and linkedin icons
+  image row needs to be centered
 
-* Ruby version
+about, resume & papers views:
+  why doesn't background image cover the entire page?
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+application.css.erb
+ why can't I get #bluefont working?
