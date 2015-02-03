@@ -37253,3 +37253,294 @@ Started GET "/assets/kayak.jpg" for 127.0.0.1 at 2015-01-31 09:13:56 -0500
 
 
 Started GET "/assets/nasonia.jpg" for 127.0.0.1 at 2015-01-31 09:13:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-03 10:03:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (110.4ms)
+Completed 200 OK in 538ms (Views: 505.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/linkedin.jpeg" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/tts-logo.png" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/nasonia.jpg" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/assets/kayak.jpg" for 127.0.0.1 at 2015-02-03 10:03:44 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:04:22 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/riverbank.JPG" for 127.0.0.1 at 2015-02-03 10:04:22 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:05:32 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:00 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:07:35 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:12 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:30 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-03 10:08:59 -0500
+
+
+Started GET "/papers" for 127.0.0.1 at 2015-02-03 10:10:22 -0500
+Processing by WelcomeController#papers as HTML
+  Rendered welcome/papers.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-03 10:11:28 -0500
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 97ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/SamSkinner.jpg" for 127.0.0.1 at 2015-02-03 10:11:28 -0500
+
+
+Started GET "/resume" for 127.0.0.1 at 2015-02-03 10:14:34 -0500
+Processing by WelcomeController#resume as HTML
+  Rendered welcome/resume.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-02-03 10:15:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2015-02-03 10:15:01 -0500
+
+
+Started GET "/assets/nasonia.jpg" for 127.0.0.1 at 2015-02-03 10:15:01 -0500
+
+
+Started GET "/assets/tts-logo.png" for 127.0.0.1 at 2015-02-03 10:15:01 -0500
+
+
+Started GET "/assets/kayak.jpg" for 127.0.0.1 at 2015-02-03 10:15:01 -0500
+
+
+Started GET "/assets/linkedin.jpeg" for 127.0.0.1 at 2015-02-03 10:15:01 -0500
+
+
+Started GET "/imagination" for 127.0.0.1 at 2015-02-03 10:16:53 -0500
+Processing by WelcomeController#imagination as HTML
+  Rendered welcome/imagination.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/imagination.mp3" for 127.0.0.1 at 2015-02-03 10:16:54 -0500
+
+
+Started GET "/index" for 127.0.0.1 at 2015-02-03 10:17:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
