@@ -6,22 +6,22 @@ Glitches:
 application.css.erb
 	why can't I get #bluefont working?
 	set font for the whole app
+  refactor stylings overall
 
 gemfile
   declare version of Ruby
-  install brakeman
   what is a procfile (heroku)?
 
 index page:
-  borders around github and linkedin icons
-  image row needs to be centered
+  change borders around github and linkedin icons, make ovals
+  email icon and ability to email me, 
 
 about, resume & papers views:
   why doesn't background image cover the entire page?
-  finish and format text on about page
+  activate email link 
 
 imagination page
 	how do I upload music clip to heroku?
 	how do I edit music clip?
 
-Set name.com DNS to point to swsportfolio
+
