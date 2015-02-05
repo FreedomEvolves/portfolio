@@ -1,64 +1,64 @@
 <div class="container-fluid bkgrd">
   <div class='page-container'>
 	  <div class='text-container'>
-			<h3 style="color:#0000b3;text-align:center">About Me (and other things)</h3>
-			<div class = "col-md-6">
+			<h3 style="color:#0000b3;text-align:center">About Me (and other things)</h3><br>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div>
+						<%= image_tag('SamSkinner.jpg', height:'240', width:'320', :class=>"img-rounded img-border", title:"Yours Truly")%>
+					</div>  <!-- close div image -->
+					<div>
+						<p><i>Rubyist and Ruby-on-Rails developer. Entrepreneur. Biologist.</i>  I've worn several hats, as demonstrated in this Portfolio with resume.  Currently, I'm very excited to transition to a new career as a Ruby and Ruby-on-Rails developer.</p>
+						<p>Briefly, I took the Code Immersion program offered by Tech Talent South (TTS) in July through mid-September of 2014.  TTS then hired me to <b><i>teach that same course</i></b> during their October to December session.  I split the teaching with another; she taught the front-end material while I taught the Ruby and core Rails sections (i.e., scaffolding, databases, model associations). Links to some of the slide sets from that course are below.</p>
+						<p>Currently I am building a new website for TTS, a jobs board.  A link to it is <a href= "http://tts-job-board.herokuapp.com"><u>here</u>.</a></p>
+					</div> <!-- close div Rubyist -->
+				</div>  <!-- close div col-md-6 -->
+				<div class="col-md-6">	
+					<h5>COMPETENCIES:</h5>
+					<ul>
+							<li>Basic <b>GIT/Github</b> – pull requests, branch, merge, clone, commit, push</li>
+							<li>Basic <b>RVM</b> –create & manage gemsets with Ruby Version Manager</li>
+							<li><b>Ruby</b>: Familiar with most aspects, including benchmarking & profiling, use of modules, namespaces and mixins, use of libraries and gems.</li>
+							<li><b>Rails:</b> Setup and deploy an App for production using Github and Heroku</li>
+							<li><b>Rails:</b> Set up and use API’s such as Google Maps and Amazon Web Services</li>
+							<li><b>Rails:</b> Create all seven types of  model associations (including many-to-many & polymorphic) and all basic data validations and filters</li>
+							<li><b>Rails:</b> Understand and use Active Record associations</li>
+							<li><b>Rails:</b> Understand and use Object Orientation</li>
+							<li><b>Rails:</b> Use generators to create models, controllers and migrations</li>
+							<li><b>Rails:</b> Create and use migrations to manage the database</li>
+							<li><b>Rails:</b> Handle CRUD requests using a Controller, Model, and View</li>
+							<li><b>Rails:</b> Setup a Rails environment on Macs, Windows and Ubuntu</li>
+							<li>Working knowledge of <b>HTML5, CSS3</b> and some Javascript.</li>
+					</ul>				
+				</div>  <!-- close div col-md-6 -->
+			</div>  <!-- close div row -->
+
+			<div class="panel panel-default", id='slide-container'>
 				<div>
-					<%= image_tag('SamSkinner.jpg', height:'240', width:'320', :class=>"img-rounded img-border", title:"Yours Truly")%>
+					<h5>REPRESENTATIVE SLIDE DECKS I PREPARED FOR THE TTS CODE IMMERSION COURSE:</h5>
 				</div>
 				<div>
-					<p>Rubyist and Ruby-on-Rails developer. Entrepreneur. Biologist.  I've worn several hats, as demonstrated in this Portfolio with resume.  Currently, I'm very excited to transition to a new career as a Ruby and Ruby-on-Rails developer.</p>
-					<p>Briefly, I took the Code Immersion program offered by Tech Talent South (TTS) in July through mid-September of 2015.  TTS then hired me to <b><i>teach that same course</i></b> during their October to December session.  I split the teaching with another; she taught the front-end material while I taught the Ruby and core Rails sections (i.e., scaffolding, databases, model associations). Links to some of the slide sets from that course are below.</p>
+					<a href="http://slides.com/pipefish1/from-the-ground-up"><u style="color:mediumblue">From the Ground Up</u></a>
+					<p>Create an app -–without scaffolding-- that uses polymorphic associations among models and nested resources.</p>
+
+					<a href="http://slides.com/pipefish1/models-databases-iii"><u style="color:mediumblue">Model Associations</u></a>
+					<p>One-to-many and many-to-many associations, set up the model relationships and refactor code in controllers and views to display the associated data.</p>
+
+					<a href="http://slides.com/pipefish1/scaffolding-models-databases-i"><u style="color:mediumblue">Scaffolding, Models, Databases</u></a>
+					<p>The first of four sessions on the heart of Rails.</p>
+
+					<a href="http://slides.com/pipefish1/the-developer-s-tools-git-github-heroku"><u style="color:mediumblue">A Developer's Toolkit</u></a>
+					<p>A developer’s toolkit: git, github and heroku.</p>
+
+					<a href="http://slides.com/pipefish1/from-zero-to-deploy-rails-github-heroku-11-12"><u style="color:mediumblue">From Zero to Deploy</u></a>
+					<p>A whirlwind tour through creating an app and deploying it to the web.</p>
 				</div>
-				<div>
-					Currently I am building a new website for TTS, a jobs board.  A link to it is <a href= "http://tts-job-board.herokuapp.com"><u>here</u>.</a>
-				</div>
-			</div> <!-- Div containing two sub divs: image and first paragraph of text. -->
-			<br>
-			<div>	
-				<h5>COMPETENCIES:</h5>
-				<ul>
-					<li>Basic <b>GIT/Github</b> – pull requests, branch, merge, clone, commit, push</li>
-					<li>Basic <b>RVM</b> –create & manage gemsets with Ruby Version Manager</li>
-					<li><b>Ruby</b>: Familiar with most aspects, including benchmarking & profiling, use of modules, namespaces and mixins, use of libraries and gems.</li>
-					<li><b>Rails:</b> Setup and deploy an App for production using Github and Heroku</li>
-					<li><b>Rails:</b> Set up and use API’s such as Google Maps and Amazon Web Services</li>
-					<li><b>Rails:</b> Create all seven types of  model associations (including many-to-many & polymorphic) and all basic data validations and filters</li>
-					<li><b>Rails:</b> Understand and use Active Record associations</li>
-					<li><b>Rails:</b> Understand and use Object Orientation</li>
-					<li><b>Rails:</b> Use generators to create models, controllers and migrations</li>
-					<li><b>Rails:</b> Create and use migrations to manage the database</li>
-					<li><b>Rails:</b> Handle CRUD requests using a Controller, Model, and View</li>
-					<li><b>Rails:</b> Setup a Rails environment on Macs, Windows and Ubuntu</li>
-					<li>Working knowledge of <b>HTML5, CSS3</b> and some Javascript.</li>
-				</ul>
-			</div>
-			<br><br><br><br>
-			<div class="panel panel-default">
-			<div>
-				<h5>REPRESENTATIVE SLIDE DECKS I PREPARED FOR THE TTS CODE IMMERSION COURSE:</h5>
-			</div>
-			<div>
-				<a href="http://slides.com/pipefish1/from-the-ground-up"><u style="color:mediumblue">From the Ground Up</u></a>
-				<p>Create an app -–without scaffolding-- that uses polymorphic associations among models and nested resources.</p>
-
-				<a href="http://slides.com/pipefish1/models-databases-iii"><u style="color:mediumblue">Model Associations</u></a>
-				<p>One-to-many and many-to-many associations, set up the model relationships and refactor code in controllers and views to display the associated data.</p>
-
-				<a href="http://slides.com/pipefish1/scaffolding-models-databases-i"><u style="color:mediumblue">Scaffolding, Models, Databases</u></a>
-				<p>The first of four sessions on the heart of Rails.</p>
-
-				<a href="http://slides.com/pipefish1/the-developer-s-tools-git-github-heroku"><u style="color:mediumblue">A Developer's Toolkit</u></a>
-				<p>A developer’s toolkit: git, github and heroku.</p>
-
-				<a href="http://slides.com/pipefish1/from-zero-to-deploy-rails-github-heroku-11-12"><u style="color:mediumblue">From Zero to Deploy</u></a>
-				<p>A whirlwind tour through creating an app and deploying it to the web.</p>
-			</div></div>
-				<br>
-				<p>References available on request.</p>
-		</div>
-	</div>
-</div>
+			</div>  <!-- close div panel -->
+			<div>References available on request.</div>
+		</div>  <!-- close div text-container -->
+	</div>  <!-- close div page-container -->
+</div>  <!-- close div container-fluid bkgrd -->
 
 
 
