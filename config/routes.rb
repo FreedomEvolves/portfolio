@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'about' => 'welcome#about'
   get 'resume' => 'welcome#resume'
   get 'papers' => 'welcome#papers'
+  get 'noze' => 'welcome#noze'
   get 'imagination' => 'welcome#imagination'
 
 

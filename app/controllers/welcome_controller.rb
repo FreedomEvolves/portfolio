@@ -11,7 +11,10 @@ class WelcomeController < ApplicationController
   def papers
   end
 
-  def door1
+  def noze
+  end
+
+  def imagination
   end
   
 end
