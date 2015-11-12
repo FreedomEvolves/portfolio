@@ -2,26 +2,6 @@
 
 This Portfolio app provides links to other websites I've developed or contributed to as well as links to sites that provide personal background (e.g., LinkedIn, Github, Google Scholar).
 
-Glitches:
-application.css.erb
-	why can't I get #bluefont working?
-	set font for the whole app
-  refactor stylings overall
 
-gemfile
-  declare version of Ruby
-  what is a procfile (heroku)?
-
-index page:
-  change borders around github and linkedin icons, make ovals
-  email icon and ability to email me, 
-
-about, resume & papers views:
-  why doesn't background image cover the entire page?
-  activate email link 
-
-imagination page
-	how do I upload music clip to heroku?
-	how do I edit music clip?
 
 
